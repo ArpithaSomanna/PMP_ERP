@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    overflow: hidden;
+}
+  
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+  
+td, th {
+  white-space: normal;
+  word-wrap: break-word;
+  max-width: 200px;
+}
+
+th {
+  font-weight: bold;
+  background-color: #00008B;
+  color: white !important;
+}
+
+
+.tableMargin {  
+  margin-top: 25px;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}

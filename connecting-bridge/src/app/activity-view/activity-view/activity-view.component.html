@@ -1,0 +1,4 @@
+<div class="text-center">
+    <app-read-excel (excelData)="onExcelData($event)"></app-read-excel>
+</div>
+<app-table *ngIf="dataInput?.displayedData?.length" [dataTableInputs]="dataInput" ></app-table>
